@@ -185,7 +185,11 @@ export default function Upload(props: Props) {
       <Grid container className={classes.root} spacing={3} justify="center">
         <Grid item xs={6}>
           <Paper variant="outlined" elevation={3} className={classes.paper}>
-            <CircularProgress className={classes.circular} variant="determinate" value={percent} />
+            <CircularProgress 
+                // className={classes.circular} 
+                // variant="determinate" 
+                value={percent}
+            />
           </Paper>
         </Grid>
       </Grid>
